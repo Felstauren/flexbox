@@ -10,11 +10,15 @@ html, body {
   font-family: 'Times New Roman', Times, serif;
   border:bisque 2px solid;
   border-width: 5px;
-  height: 45px;
+  height: auto;
   text-align: center;
   line-height:40px;
-  padding:2px;
-  width: 60px;
+  padding:auto;
+  width: auto;
+}
+
+.second {
+  font-size: 10px;
 }
 
 #logo {
@@ -22,8 +26,17 @@ html, body {
   font-size: 40px;
   font-weight: bolder;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  padding:10px;
-  width: 150px ;
+  padding:auto;
+  width: auto ;
+}
+
+#logo2 {
+  color:orangered;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding:auto;
+  width: auto ;
 }
 
 .container {
@@ -37,12 +50,13 @@ html, body {
   border-color: black;
   border-top: solid 1px;
   border-right: solid 1px;
+  margin:10px
   
 }
 
 .container_alpha {
   display: flex;
-  padding:5px;
+  padding:auto;
   justify-content: space-between;
   justify-content: space-between;
 }
@@ -57,4 +71,15 @@ html, body {
   display: flex;
   justify-content: space-between;
   justify-content: flex-end;
+}
+
+.container2 {
+  background-color: bisque;
+  padding: 10px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin:0%;
 }
