@@ -1,0 +1,18 @@
+.box-blue {
+  display: flex;
+  background-color: blue;
+  border: 4px solid black;
+  padding: 200px;
+  justify-content: center;
+}
+
+.box-red {
+  align-items: center;
+  border: darkred 3px solid;
+  background-color: lightcoral;
+  flex-shrink: 0%;
+  height: 100px;
+  width:100px;
+  text-align: center;
+  font-weight: bold;
+}
