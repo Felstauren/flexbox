@@ -1,18 +1,19 @@
-.box-blue {
-  display: flex;
-  background-color: blue;
-  border: 4px solid black;
-  padding: 200px;
-  justify-content: center;
+html, body {
+  height: 100%;  
 }
 
-.box-red {
-  align-items: center;
-  border: darkred 3px solid;
-  background-color: lightcoral;
-  flex-shrink: 0%;
-  height: 100px;
-  width:100px;
-  text-align: center;
-  font-weight: bold;
+
+
+.container {
+  background-color: bisque;
+  padding: 10px;
+  height: 60px;
+  display: flex;
+  border:red solid 2px;
+}
+
+.container_second {
+  display: flex;
+  justify-content: space-between;
+  border:blue solid 2px;
 }
