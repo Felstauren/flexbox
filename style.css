@@ -2,6 +2,7 @@ html, body {
   height: 100%;  
 }
 
+
 .text {
   background-color: white;
   color:blue;
@@ -33,6 +34,10 @@ html, body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  border-color: black;
+  border-top: solid 1px;
+  border-right: solid 1px;
+  
 }
 
 .container_alpha {
